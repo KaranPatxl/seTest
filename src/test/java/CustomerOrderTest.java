@@ -62,7 +62,7 @@ public class CustomerOrderTest {
 
     @Test
     public void testLowStockAlert() {
-        inventory.updateStock("Garlic Bread", 13);  // Only 2 left after this
+        inventory.updateStock("Garlic Bread", 13);  
         assertTrue(inventory.isLowStock("Garlic Bread"));
     }
 
